@@ -1,23 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependencies
 /node_modules
-/.pnp
-.pnp.js
 
-# testing
+# Build output
+/build
+/dist
+
+# OS and editor-specific files
+/.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.log.*
+*.tmp
+*.tmp.*
+
+# Environment configuration
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor-related files
+.vscode
+.idea
+
+# ESLint and Prettier artifacts
+.eslintcache
+/.eslintcache
+/prettier.config.js
+
+# Babel artifacts
+# /.babelrc
+/.babelrc.js
+/.babelrc.json
+/babel.config.js
+
+# Jest test results
 /coverage
 
-# production
-/build
+# Yarn Integrity file
+.yarn-integrity
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Dependency directory
+/pnpm-lock.yaml
+
+# Optional npm cache directory
+.pnpm
