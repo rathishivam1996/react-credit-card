@@ -71,12 +71,7 @@ function Footer() {
             <Link className="social-icon-link" to="/" target="_blank" aria-label="Instagram">
               <FaInstagram />
             </Link>
-            <Link
-              className="social-icon-link"
-              to="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
-              target="_blank"
-              aria-label="Youtube"
-            >
+            <Link className="social-icon-link" to="/" target="_blank" aria-label="Youtube">
               <FaYoutube />
             </Link>
             <Link className="social-icon-link" to="/" target="_blank" aria-label="Twitter">
