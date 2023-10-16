@@ -42,7 +42,7 @@ function Navbar() {
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <MdFingerprint className="navbar-icon" />
-            LAVISH
+            OneCard
           </Link>
           <div
             className="menu-icon"

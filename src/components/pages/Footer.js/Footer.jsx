@@ -60,10 +60,10 @@ function Footer() {
           <div className="footer-logo">
             <Link to="/" className="social-logo">
               <MdFingerprint className="navbar-icon" />
-              LAVISH
+              OneCard
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">OneCard © 2023</small>
           <div className="social-icons">
             <Link className="social-icon-link" to="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
